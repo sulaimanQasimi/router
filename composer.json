@@ -1,5 +1,5 @@
 {
-    "name": "sulaimanqasimi/tailwind-forms",
+    "name": "sulaimanqasimi/router",
     "description": "A Laravel package providing beautiful form components with Tailwind UI styling",
     "type": "library",
     "license": "MIT",
