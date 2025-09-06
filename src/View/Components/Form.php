@@ -1,6 +1,6 @@
 <?php
 
-namespace SulaimanQasimi\TailwindForms\View\Components;
+namespace SulaimanQasimi\Router\View\Components;
 
 use Illuminate\View\Component;
 use Illuminate\View\View;

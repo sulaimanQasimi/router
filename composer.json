@@ -3,7 +3,7 @@
     "description": "A Laravel package providing beautiful form components with Tailwind UI styling",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Sulaiman Qasimi",
@@ -21,18 +21,18 @@
     },
     "autoload": {
         "psr-4": {
-            "YourVendor\\TailwindForms\\": "src/"
+            "SulaimanQasimi\\Router\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "YourVendor\\TailwindForms\\Tests\\": "tests/"
+            "SulaimanQasimi\\Router\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SulaimanQasimi\\TailwindForms\\TailwindFormsServiceProvider"
+                "SulaimanQasimi\\Router\\TailwindFormsServiceProvider"
             ]
         }
     },
