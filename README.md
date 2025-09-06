@@ -18,7 +18,7 @@ A beautiful Laravel package providing form components with Tailwind UI styling. 
 1. Install the package via Composer:
 
 ```bash
-composer require your-vendor/tailwind-forms
+composer require sulaimanqasimi/tailwind-forms
 ```
 
 2. Publish the configuration file:

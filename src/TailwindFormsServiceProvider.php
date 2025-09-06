@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\TailwindForms;
+namespace SulaimanQasimi\TailwindForms;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;
@@ -49,6 +49,6 @@ class TailwindFormsServiceProvider extends ServiceProvider
      */
     protected function registerBladeComponents(): void
     {
-        Blade::componentNamespace('YourVendor\\TailwindForms\\View\\Components', 'tailwind-forms');
+        Blade::componentNamespace('SulaimanQasimi\\TailwindForms\\View\\Components', 'tailwind-forms');
     }
 }
