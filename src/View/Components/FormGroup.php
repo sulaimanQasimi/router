@@ -5,9 +5,11 @@ namespace YourVendor\TailwindForms\View\Components;
 use Illuminate\View\Component;
 use Illuminate\View\View;
 
-class Label extends Component
+class FormGroup extends Component
 {
-    public ?string $for;
+    public ?string $label;
+    public ?string $name;
+    public ?string $help;
     public bool $required;
     public array $attributes;
 
@@ -15,11 +17,15 @@ class Label extends Component
      * Create a new component instance.
      */
     public function __construct(
-        ?string $for = null,
+        ?string $label = null,
+        ?string $name = null,
+        ?string $help = null,
         bool $required = false,
         array $attributes = []
     ) {
-        $this->for = $for;
+        $this->label = $label;
+        $this->name = $name;
+        $this->help = $help;
         $this->required = $required;
         $this->attributes = $attributes;
     }
@@ -29,14 +35,6 @@ class Label extends Component
      */
     public function render(): View
     {
-        return view('tailwind-forms::components.label');
-    }
-
-    /**
-     * Get the CSS classes for the label.
-     */
-    public function getClasses(): string
-    {
-        return config('tailwind-forms.default_classes.label', '');
+        return view('tailwind-forms::components.form-group');
     }
 }
